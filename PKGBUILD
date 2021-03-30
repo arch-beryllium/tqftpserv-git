@@ -4,13 +4,13 @@ pkgdesc="(patched) Trivial File Transfer Protocol server over AF_QIPCRTR"
 pkgver=r13.44af146
 pkgrel=1
 arch=("aarch64")
-url="https://github.com/scarface-one/$_pkgname"
+url="https://github.com/arch-beryllium/$_pkgname"
 license=("BSD-3-Clause")
 groups=("qcom-icnss-wlan")
 depends=("qrtr")
 makedepends=("git" "make" "gcc")
 provides=("$_pkgname")
-source=("git://github.com/scarface-one/$_pkgname.git")
+source=("git://github.com/arch-beryllium/$_pkgname.git")
 md5sums=("SKIP")
 
 pkgver() {
